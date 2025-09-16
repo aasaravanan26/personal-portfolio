@@ -25,7 +25,7 @@ const projects = [
     title: "Personal Portfolio",
     description: "A personal website to showcase my projects, blog posts, and professional profile.",
     techStack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
-    githubUrl: "",
+    githubUrl: "https://github.com/aasaravanan26/personal-portfolio",
     status: "In progress / Published"
   }
 ];
