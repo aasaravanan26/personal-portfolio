@@ -27,6 +27,13 @@ const projects = [
     techStack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
     githubUrl: "https://github.com/aasaravanan26/personal-portfolio",
     status: "In progress / Published"
+  },
+  {
+    title: "Video Watching Behavior vs Student Performance",
+    description: "Studied how student video engagement affects quiz scores using clustering, regression models, and neural networks.",
+    techStack: ["Python", "scikit-learn", "Pandas", "Seaborn"],
+    liveDemoUrl: "/student_performance_ML.pdf",
+    status: "Completed"
   }
 ];
 

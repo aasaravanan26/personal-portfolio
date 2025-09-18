@@ -3,6 +3,7 @@ type ProjectCardProps = {
     description: string;
     techStack: string[];
     githubUrl?: string;
+    liveDemoUrl?: string;
   };
   
   export default function ProjectCard({
@@ -10,6 +11,7 @@ type ProjectCardProps = {
     description,
     techStack,
     githubUrl,
+    liveDemoUrl
   }: ProjectCardProps) {
     return (
       <div className="group border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:bg-gray-50 dark:hover:bg-gray-800">
@@ -36,6 +38,16 @@ type ProjectCardProps = {
               GitHub →
             </a>
           )}
+          {liveDemoUrl && (
+          <a
+            href={liveDemoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="no-underline text-sm font-medium text-gray-600 dark:text-gray-400"
+          >
+            Download PDF →
+          </a>
+        )}
         </div>
       </div>
     );
