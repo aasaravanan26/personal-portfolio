@@ -57,6 +57,7 @@ export default function Home() {
       >
         Contact
       </Link>
+{/*       
         {mounted && (
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -64,7 +65,7 @@ export default function Home() {
           >
             {theme === "dark" ? "☀️ Light" : "🌙 Dark"}
           </button>
-        )}
+        )} */}
       </div>
     </main>
   );
